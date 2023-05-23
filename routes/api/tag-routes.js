@@ -40,12 +40,18 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes: [
+    attributes: ['id', 'tag_name'],
+    include: [
+      {
+        model: Product,
+        attributes: [
       'id',
       'product_name',
       'price',
       'stock',
       'category_id'
+        ]
+      }
     ]
   })
   .then(tagData => {
