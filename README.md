@@ -13,6 +13,12 @@
   - [Questions](#questions)
   <br>
 
+  # Screenshot and Demo Link
+  <img src="assets\screenshot.JPG">
+  <br> 
+  <a href="https://www.youtube.com/watch?v=YnKNq8zaPww"> Application Demo on Youtube </a>
+
+
   # Installation
   See below for any of this project's dependencies - 
   npm install, npm i dotenv, npm i express, npm i mysql2, and npm i sequelize
